@@ -1,0 +1,66 @@
+body {
+  padding: 50px 50px;
+  background-color: #f2f2f2;
+}
+
+#page_title {
+  margin: 20px 0;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: white;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+.area {
+  margin: 10px 0;
+}
+
+#dropdown {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#table {
+  padding: 10px 0;
+  font-size: 1rem;
+  text-align: center;
+}
+
+#table thead {
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+#table tbody tr:nth-child(2n) {
+  background-color: lightgray;
+}
+
+#pagination {
+  padding: 10px 10px;
+  text-align: center;
+  background-color: white;
+}
+
+#pagination > button {
+  margin: 0 10px;
+  font-size: 1rem;
+  font-weight: 550;
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+}
+
+button.arrow,
+button.page-number.selected {
+  color: red;
+}
